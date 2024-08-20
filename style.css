@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+    border-bottom: 1px solid rgb(177, 175, 175);
+
+}
+
+#nav-container img {
+    width: 60px;
+    
+}
+
+#nav-container .img-insta {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 10px;
+    margin-right: 10px;
+}
+
+.link-insta {
+    color: black;
+    text-decoration: none;
+    font-style: none;
+}
+
+header {
+    text-align: center; 
+    font-weight: bold;
+    
+}
+
+header h1 {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 40px;
+}
+
+header p {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 20px;
+}
+
+#sobre-nos {
+    text-align: center;
+}
+
+#sobre-nos p{
+    padding: 1rem;
+    margin: 1rem;
+    
+}#location {
+    text-align: center;   
+}
+
+#container-location {
+    display: flex;
+    justify-content: space-around;
+}
+
+#container-location img {
+    height: 200px;
+}
+
+#location p{
+    max-width: 400px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#budget {
+    text-align: center;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+#budget-container p{
+    padding: .5rem;
+    margin: .5rem;
+}
+
+#budget-table {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#budget-table img {
+    padding: 1rem;
+    height: 300px;
+}
+
+#budget-table ul {
+    padding: 1rem;
+    
+}
+
+
+#budget-table li {
+    background-color: rgb(1, 1, 17);
+    color: #fff;
+    border: 1px solid black;
+    padding: .1rem;
+    margin: .4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#budget-table li aside {
+    margin: 0 2rem;
+}
+
+#onekg-value {
+    padding-right: 25px;
+}
+
+.value {
+    padding-right: 15px;
+}
+
+#sevenkg-value {
+    position: relative;
+    right: 15px;
+}
+
+.teste {
+    display: flex;
+}
+
+input[type="number"] {
+    text-align: center;
+    margin-top: .5rem;
+    width: 50px;
+    height: 20px;
+}
+
+#calcular{
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.budget-result {
+    display: flex;
+    justify-content: center;
+}
+
+.p {
+    background-color: rgb(1, 1, 17);
+    color: white;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    opacity: 0;
+    border-radius: 10rem;
+    
+}
+
+.pp {
+    opacity: 1;
+}

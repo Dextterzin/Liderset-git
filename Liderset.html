@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav id="nav-container">
+        <li><img src="logo-liderset.png" alt="logo da liderset"></li>
+        <li><img src="insta2.jpg" alt="" class="img-insta"><a class="link-insta" href="" target="_blank">Instagram</a></li>
+        
+    </nav>
+    <header>
+        <h1>Liderset Embalagens</h1>
+        <p>"Sua marca destacada em qualquer material."</p>
+    </header>
+    <main>
+        <section id="sobre-nos">
+            <h2>Quem somos?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt cum cumque voluptate fuga a autem similique ut quia delectus, officia tempore enim excepturi cupiditate. Recusandae delectus nobis molestiae. Nisi, deleniti.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima voluptatem recusandae pariatur, reiciendis exercitationem culpa odio facere eos debitis atque qui velit perferendis, aspernatur quas quisquam sit sint porro voluptatibus.
+            </p>
+        </section>
+        <section id="location">
+            <h2>Onde estamos?</h2>
+            <div id="container-location">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit illum incidunt, sit vel voluptates facere quasi, fugit temporibus placeat in, quia at? Accusantium numquam, corporis quidem doloremque ducimus nam odio.</p>
+            <img src="logo-liderset.png" alt="">
+            </div>
+        </section>
+        <section id="budget">
+            <h2>Orçamento</h2>
+            <div id="budget-container">
+                <p>Faça aqui seu orçamento!</p>
+                <div id="budget-table">
+                    <img src="saco de pao.png" alt="">
+                    <form>
+                        <ul>
+                            <h3>Tabela de preço</h3>
+                            <div class="teste">
+                                <input type="number" class="milheiro" id="onekg-btn" value="1">
+                                <li><aside>1kg</aside> <aside class="value" id="onekg-value">R$ 85,00</aside></li>
+                            </div>
+
+                            <div class="teste">
+                                <input type="number" class="milheiro" id="twokg-btn" value="1"> 
+                                <li><aside>2kg</aside> <aside class="value" id="twokg-value">R$ 120,00</aside></li>
+                            </div>
+
+                            <div class="teste">
+                                <input type="number" class="milheiro" id="threekg-btn" value="1">
+                                <li><aside>3kg</aside> <aside class="value" id="threekg-value">R$ 152,00</aside></li>
+                            </div>
+
+                            <div class="teste">
+                                <input type="number" class="milheiro" id="fivekg-btn" value="1">
+                                <li><aside>5kg</aside> <aside class="value" id="fivekg-value">R$ 203,00</aside></li>
+                            </div>
+
+                            <div class="teste">
+                                <input type="number" class="milheiro" id="sevenkg-btn" value="1">
+                                <li><aside>7,5kg</aside> <aside id="sevenkg-value">R$ 249,00</aside></li>
+                            </div>
+                            <input type="button" value="Calcular" id="calcular" onclick="teste()">
+                        </ul>
+                    </form>
+                </div>
+                <div class="budget-result">
+                    <p class="p"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
