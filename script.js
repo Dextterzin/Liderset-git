@@ -5,6 +5,8 @@ const fivekg = document.querySelector("#fivekg-btn")
 const sevenkg = document.querySelector("#sevenkg-btn")
 const result = document.querySelector(".p")
 
+
+
 const teste = () => {
     const one = onekg.value
     const two = twokg.value
@@ -27,7 +29,5 @@ const teste = () => {
 
     result.classList.add("pp")
     result.innerHTML = `O valor total é ${tot}`
-    
-
 
 }

@@ -12,11 +12,10 @@
     padding: 1rem;
     color: white;
     border-bottom: 1px solid rgb(177, 175, 175);
-
 }
 
 #nav-container img {
-    width: 60px;
+    width: 100px;
     
 }
 
@@ -26,6 +25,12 @@
     position: relative;
     top: 10px;
     margin-right: 10px;
+}
+
+#nav-container a {
+    background-color: #817e7e4f;
+    padding: 5px;
+    border-radius: 50px;
 }
 
 .link-insta {
@@ -66,11 +71,39 @@ header p {
 
 #container-location {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin: 2rem;
 }
 
 #container-location img {
-    height: 200px;
+    height: 250px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+#container-location p {
+    font-size: 22px;
+}
+
+@media (max-width: 720px) {  
+    #container-location img {
+        margin-top: 10px;
+        height: 250px;
+    }
+    
+    #container-location p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 650px) {
+  
+    #container-location img {
+        margin-top: 30px;
+    }
+    
+    #container-location p {
+        font-size: 16px;
+    }
 }
 
 #location p{
@@ -93,6 +126,7 @@ header p {
 #budget-table {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 #budget-table img {
