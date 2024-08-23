@@ -72,7 +72,7 @@ header p {
 #container-location {
     display: flex;
     justify-content: space-evenly;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 #container-location img {
@@ -84,10 +84,11 @@ header p {
     font-size: 22px;
 }
 
-@media (max-width: 720px) {  
+@media (max-width: 650px) {  
     #container-location img {
         margin-top: 10px;
         height: 250px;
+        width: 250px;
     }
     
     #container-location p {
@@ -95,14 +96,31 @@ header p {
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 530px) {
   
     #container-location img {
         margin-top: 30px;
+        height: 200px;
+        width: 200px;
+
     }
     
     #container-location p {
         font-size: 16px;
+    }
+}
+
+
+@media (max-width: 480px) {
+  
+    #container-location img {
+        height: 200px;
+        width: 200px;
+
+    }
+    
+    #container-location p {
+        font-size: 14px;
     }
 }
 
